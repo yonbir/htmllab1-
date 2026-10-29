@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact John Doe for questions, feedback, or opportunities.">
+    <title>Contact Me - John Doe</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+        <p>I welcome questions, ideas, feedback, and opportunities to connect.</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills & Education</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+            <p>Website: <a href="index.html">My Personal Website</a></p>
+        </section>
+
+        <section>
+            <h2>Send Me a Message</h2>
+            
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <p>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="+251 9XX XXX XXX">
+                    </p>
+
+                    <p>
+                        <label for="website">Your Website:</label><br>
+                        <input type="url" id="website" name="website" placeholder="https://example.com">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message Details</legend>
+
+                    <p>
+                        <label for="subject">Subject:</label><br>
+                        <select id="subject" name="subject" required>
+                            <option value="">-- Select a subject --</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="job">Job Opportunity</option>
+                            <option value="question">Question</option>
+                        </select>
+                    </p>
+
+                    <p>How did you find my website?</p>
+                    <label><input type="radio" name="source" value="search"> Search Engine</label>
+                    <label><input type="radio" name="source" value="social"> Social Media</label>
+                    <label><input type="radio" name="source" value="friend"> Friend or Colleague</label>
+
+                    <p>
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..." required></textarea>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Optional Information</legend>
+
+                    <p>
+                        <label for="contact-date">Preferred Contact Date:</label><br>
+                        <input type="date" id="contact-date" name="contact-date">
+                    </p>
+
+                    <p>
+                        <label for="fav-color">Choose a Favourite Color:</label><br>
+                        <input type="color" id="fav-color" name="fav-color">
+                    </p>
+
+                    <p>
+                        <label for="rating">Rate My Website (1-10):</label><br>
+                        <input type="range" id="rating" name="rating" min="1" max="10">
+                    </p>
+
+                    <p>
+                        <label>
+                            <input type="checkbox" name="reply" value="yes">
+                            I would like a reply to my message.
+                        </label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Submit Message</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h2>Other Ways to Connect</h2>
+            <ul>
+                <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 John Doe. Personal website.</p>
+        <p>Thank you for visiting my website.</p>
+        <p><a href="index.html">Return to Home</a></p>
+    </footer>
+
+</body>
+</html>
